@@ -31,7 +31,7 @@ jobs:
 
           # 1. URL用のファイル名（拡張子なし）を取得
           FILENAME=$(basename "$ADDED_FILE" .md)
-          DIARY_URL="https://fujita-shu-diary.pages.dev/diary/${FILENAME}/"
+          DIARY_URL="https://fujitashu.pages.dev/diary/${FILENAME}/"
           
           # 2. ファイル内の "title: " 行から日記のタイトルを抽出
           # 例: title: 2026年2月7日（土） -> 2026年2月7日（土）

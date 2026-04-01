@@ -1,0 +1,17 @@
+# Hugo 向け基本設定
+public/
+resources/
+.hugo_build.lock
+
+# OS 用ファイル
+.DS_Store
+Thumbs.db
+
+# 開発用・秘密情報
+.env
+.env.*
+!.env.example
+
+# その他
+/tmp
+/bin
