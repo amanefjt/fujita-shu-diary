@@ -9,7 +9,7 @@ title = "日記"
   description = ""
 
 [params]
-  description = "。"
+  description = ""
   authorName = ""
   githubUser = ""
   twitterUser = ""
